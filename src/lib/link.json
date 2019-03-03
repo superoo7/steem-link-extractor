@@ -1,0 +1,47 @@
+{
+  "steemit": {
+    "name": "steemit",
+    "profile_link": "https://steemit.com/@{{author}}",
+    "post_link": "https://steemit.com/{{category}}/@{{author}}/{{permlink}}",
+    "base_url": "steemit.com",
+    "author_loc": "2",
+    "category_loc": "1",
+    "permlink_loc": "3"
+  },
+  "busy": {
+    "name": "busy",
+    "profile_link": "https://busy.org/@{{author}}",
+    "post_link": "https://busy.org/@{{author}}/{{permlink}}",
+    "base_url": "busy.org",
+    "author_loc": "2",
+    "category_loc": "",
+    "permlink_loc": "3"
+  },
+  "steemhunt": {
+    "name": "steemhunt",
+    "profile_link": "https://steemhunt.com/author/@{{author}}",
+    "post_link": "https://steemhunt.com/@{{author}}/{{permlink}}",
+    "base_url": "steemhunt.com",
+    "author_loc": "1",
+    "category_loc": "",
+    "permlink_loc": "2"
+  },
+  "musing": {
+    "name": "musing",
+    "profile_link": "https://musing.io/profile/{{author}}",
+    "post_link": "https://musing.io/q/{{author}}/{{permlink}}",
+    "base_url": "musing.io",
+    "author_loc": "2",
+    "category_loc": "",
+    "permlink_loc": "3"
+  },
+  "partiko": {
+    "name": "partiko",
+    "profile_link": "https://partiko.app/@{{author}}",
+    "post_link": "https://partiko.app/@{{author}}/{{permlink}}",
+    "base_url": "partiko.app",
+    "author_loc": "1",
+    "category_loc": "",
+    "permlink_loc": "2"
+  }
+}
