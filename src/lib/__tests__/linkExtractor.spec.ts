@@ -28,16 +28,6 @@ describe("Link Alias test", () => {
       "https://www.steemit.com/cloud/@superoo7/side-to-side-comparison-of-digital-ocean-and-aws-lightsail"
     );
     expect(link3).toEqual(steemitRes);
-    // Condition #4: throw error on ban
-    try {
-      extractPostLink(
-        "https://www.steemit.com/cloud/@superoo7/side-to-side-comparison-of-digital-ocean-and-aws-lightsail",
-        { automatic: true }
-      );
-      throw new Error("ERROR");
-    } catch (err) {
-      expect(err.message).toBe("Platform steemit is banned");
-    }
   });
 
   it("gest partiko link", () => {
