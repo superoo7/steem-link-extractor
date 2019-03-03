@@ -16,6 +16,11 @@ In Steem blockchain, there is so many apps that used different kind of pathname 
 - Jest
 - Rollup
 
+## Housekeeping
+
+- Checkout [Changelog](Changelog.md) for updates.
+- Checkout [Contributing](Contributing.md) to contribute to this project.
+
 ## Installation
 
 ```sh
