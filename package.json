@@ -1,9 +1,10 @@
 {
   "name": "steem-link-extractor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "store text into steem blockchain",
-  "main": "lib/steem-link-extractor.umd.js",
+  "main": "lib/steem-link-extractor.cjs.js",
   "module": "lib/steem-link-extractor.es5.js",
+  "browser": "lib/steem-link-extractor.umd.js",
   "typings": "lib/types/index.d.ts",
   "dependencies": {},
   "devDependencies": {

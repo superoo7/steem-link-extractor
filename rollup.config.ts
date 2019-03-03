@@ -14,12 +14,18 @@ export default [
     input: `src/lib/index.ts`,
     output: [
       {
-        file: pkg.main,
+        file: pkg.browser,
         name: libraryName,
         format: "umd",
         sourcemap: true
       },
-      { file: pkg.module, format: "es", sourcemap: true }
+      { file: pkg.module, name: libraryName, format: "es", sourcemap: true },
+      {
+        file: pkg.main,
+        name: libraryName,
+        format: "cjs",
+        sourcemap: true
+      }
     ],
     external: ["dsteem/lib"],
     watch: {
