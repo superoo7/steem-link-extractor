@@ -1,5 +1,9 @@
 # steem-link-extractor
 
+[![npm version](https://badge.fury.io/js/steem-link-extractor.svg)](https://www.npmjs.com/package/steem-link-extractor)
+[![Build Status](https://travis-ci.org/superoo7/steem-link-extractor.svg?branch=master)](https://travis-ci.org/superoo7/steem-link-extractor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A simple tools to extract links and generate links for different steem platform.
 
 ## About Steem Link Extractor
