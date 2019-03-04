@@ -1,6 +1,6 @@
 {
   "name": "steem-link-extractor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "store text into steem blockchain",
   "main": "lib/steem-link-extractor.cjs.js",
   "module": "lib/steem-link-extractor.es5.js",

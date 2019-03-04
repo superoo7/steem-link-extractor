@@ -28,6 +28,14 @@ $ npm i --save steem-link-extractor
 $ yarn add steem-link-extractor
 ```
 
+## Requirement
+
+- URL API required.
+- Node 10+ (support `new URL`, [refer to this](https://nodejs.org/en/blog/release/v8.0.0/#say-hello-to-the-whatwg-url-parser))
+- not IE 11 (Refer to [URL](https://caniuse.com/#feat=url))
+
+Polyfill required to support this library.
+
 ## Usage
 
 You can checkout example at [index.js](src/example/index.js) and [index.mjs](src/example/index.mjs)

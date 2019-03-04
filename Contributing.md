@@ -75,7 +75,7 @@ pathname = ["", "cloud", "@superoo7", "side-to-side-comparison-of-digital-ocean-
 
 **Requirement**
 
-- Node version 8+
+- Node version 10+ (Support `new URL()`)
 - NPM installed
 
 ```sh
