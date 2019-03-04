@@ -1,6 +1,6 @@
 {
   "name": "steem-link-extractor",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "store text into steem blockchain",
   "main": "lib/steem-link-extractor.cjs.js",
   "module": "lib/steem-link-extractor.es5.js",
@@ -36,5 +36,16 @@
   "license": "MIT",
   "files": [
     "lib"
-  ]
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superoo7/steem-link-extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/superoo7/steem-link-extractor/issues"
+  },
+  "homepage": "https://github.com/superoo7/steem-link-extractor#readme"
 }

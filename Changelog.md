@@ -8,6 +8,6 @@ Project released with 3 API.
 - generateProfileLink
 - generatePostLink
 
-## 0.0.2
+## 0.1.0
 
-Fix issue with `.mjs`
+Cleanup and deploy to NPM
